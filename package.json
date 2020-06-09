@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Test project",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  },
   "devDependencies": {
     "lite-server": "^2.5.4"
   },
