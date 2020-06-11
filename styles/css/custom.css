@@ -1,3 +1,9 @@
+ /* Global custom css */
+body{
+  background-color: #343a40;
+}
+/* end */
+
 /* Custom css for Navbar */
 @media screen and (max-width: 575px){
 .navbar-nav {
@@ -33,7 +39,28 @@
 }
 
 .carousel-caption{
-  top: 60%;
+  padding-top: 200px;
+  top: 35%;
   transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/* end */
+
+ /* Custom css for media object */
+.media-body .btn {
+  border-radius: 25px;
+}
+
+.media-body h5 {
+  color: white;
+}
+
+.media-body p {
+  color: white;
+}
+
+.img2{
+  width:auto;
+  height: 300px;
 }
 /* end */
