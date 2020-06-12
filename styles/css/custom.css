@@ -37,8 +37,8 @@ body{
 
 /* Custom css for carousel */
 .ratio img{
-  width: auto;
-  height: 800px;
+  width: 100%;
+  height: auto;
   /* max-height: 720px; */
 }
 
@@ -63,8 +63,37 @@ body{
   color: white;
 }
 
-.img2{
-  width:auto;
-  height: 300px;
+.card-img{
+  width: 100%;
+  height: auto;
 }
+.card-text{
+  color:white;
+}
+
+.card-fade{
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.card-cont:hover .card-fade{
+  opacity: 0.3;
+}
+
+.card-cont:hover .card-overlay {
+  opacity: 1;
+}
+
+.card-overlay{
+  transition: .5s ease;
+ opacity: 0;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ text-align: center;
+}
+
 /* end */
