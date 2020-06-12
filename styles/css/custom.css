@@ -122,3 +122,19 @@ body{
 }
 
 /* end */
+
+
+.heading-la{
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.title-la{
+  color: white;
+}
+
+.par-la{
+  color: white;
+  font-size: 15px;
+}
