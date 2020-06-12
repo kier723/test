@@ -50,6 +50,31 @@ body{
 }
 /* end */
 
+/* Footer */
+.footer {
+  background: #283132;
+  color: gray;
+  height: 300px;
+  width: 100%;
+  bottom: 0px;
+  position: relative;
+}
+
+.footer .footer-bottom {
+  background: #283132;
+  color: gray;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  word-spacing: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+
+/* end */
+
  /* Custom css for media object */
 .media-body .btn {
   border-radius: 25px;
