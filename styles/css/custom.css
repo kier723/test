@@ -185,7 +185,7 @@ body{
 
 /* end */
 
-
+ /* styles for latest articles */
 .heading-la{
   text-align: center;
   color: white;
@@ -200,3 +200,51 @@ body{
   color: white;
   font-size: 15px;
 }
+
+.button{
+  border-radius: 25px;
+}
+/* end */
+
+
+/* start of blog styles */
+.blog-picture{
+  width: 100%;
+  height: auto;
+}
+
+.blog-title  h1{
+  color: white;
+}
+
+.blog-author{
+  color: white;
+}
+
+.seperator{
+  border-right: 1px solid white;
+}
+
+.blog-paragraph{
+  color: white;
+}
+
+.blog-button{
+  border-radius: 25px;
+}
+
+.blog-content{
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 575px){
+  .blog-title  h1{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .blog-paragraph{
+    font-size: 8px;
+  }
+}
+/* end */
