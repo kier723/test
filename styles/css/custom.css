@@ -248,3 +248,48 @@ body{
   }
 }
 /* end */
+
+
+  /* start of blog page styles */
+ .blog-page-image{
+   max-width: 100%;
+   max-height: 100%;
+   margin: auto;
+   position: fixed;
+   display: block;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+ }
+
+ .blog-page-image-content{
+   height: 100%;
+ }
+
+.blog-page-filler{
+  height: 600px;
+}
+
+.blog-page-article-content{
+  position: relative;
+  background-color: #2a2a2a;
+}
+
+.blog-page-text{
+  color: white;
+}
+
+.blog-page-article{
+  color:white;
+  font-size: 22px;
+}
+
+.card{
+  background-color: #474747;
+}
+
+.card-title{
+  color:white;
+}
+  /* end */
