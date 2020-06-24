@@ -118,7 +118,7 @@ body{
 
 .footer .footer-content .links ul a:hover {
   color: orange;
-  margin-left: 15px;
+  margin-left: 3px;
   transition: all .3s
 }
 
