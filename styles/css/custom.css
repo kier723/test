@@ -292,4 +292,14 @@ body{
 .card-title{
   color:white;
 }
+
+.x{
+  position: relative;
+  top: 450px;
+}
+
+.fills{
+  height: 520px;
+}
+
   /* end */

@@ -12,7 +12,7 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+  <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-sm" id="chuchu">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,9 +34,9 @@
         <img src="https://hackernoon.com/drafts/xl192gpf.png" alt="..." class="blog-page-image">
       </div>
 
-      <div class="blog-page-filler"></div>
+      <div class="blog-page-filler" id="fills"></div>
 
-      <div class="blog-page-article-content">
+      <div class="blog-page-article-content" id="test">
         <div class="container">
           <h1 class="blog-page-text m-0">Title of the blog</h1>
         <div class="row blog-page-text">
@@ -159,5 +159,20 @@
 
   <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script>
+    window.onscroll = function() {myFunction()};
+    var x = document.getElementById("test");
+
+    function myFunction(){
+  if (window.pageYOffset >= x.offsetTop - 150) {
+    chuchu.classList.add("x");
+    fills.classList.add("fills");
+  } else {
+    chuchu.classList.remove("x");
+    fills.classList.remove("fills");
+
+  }
+}
+  </script>
 </body>
 </html>
