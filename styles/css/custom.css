@@ -52,9 +52,9 @@ body{
 
 /* Footer */
 .footer {
-  background: #283132;
+  background: #212429;
   margin-top: 100px;
-  color: gray;
+  color: #969696;
   height: 400px;
   width: 100%;
   bottom: 0px;
@@ -70,69 +70,72 @@ body{
 .footer .footer-content .footer-section {
   flex: 1;
   padding: 50px;
-  font-size: 14.5px;
+  font-size: 12.5px;
   color: #CCCCCC;
 }
 
 .footer .footer-content h1,
-.footer .footer-content h2 {
-  color: gray;
+.footer .footer-content h2,
+.footer .footer-content h3 {
+  color: #8D8D8D;
 }
 
 .footer .footer-content .about h1 span {
-  color: black;
+  color: #8D8D8D;
 }
 
 .footer .footer-content .about .contact span {
   display: block;
   font-size: 1.1em;
   margin-bottom: 8px;
-  color: white;
-}
-
-.footer .footer-content .about .socials a {
-  border: 1px solid white;
-  color: white;
-  width: 45px;
-  height: 41px;
-  padding-top: 5px;
-  margin-right: 5px;
-  text-align: center;
-  display: inline-block;
-  font-size: 1.3em;
-  border-radius: 5px;
-}
-
-.footer .footer-content .about .socials a:hover {
-  border: 1px solid orange;
-  color: orange;
-  transition: all .3s;
+  color: #8D8D8D;
 }
 
 .footer .footer-content .links ul a {
   display: block;
   margin-bottom: 10px;
   font-size: 1em;
-  color: white;
+  color: #8D8D8D;
 }
 
 .footer .footer-content .links ul a:hover {
-  color: orange;
+  color: white;
   margin-left: 3px;
-  transition: all .3s
+  transition: all .3s;
+  text-decoration: none;
 }
 
+.footer .footer-content .socials a {
+  color: #8D8D8D;
+  display: block;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  height: 5px;
+  margin-right: 220px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+}
+
+.footer .footer-content .socials a:hover {
+  color: white;
+  transition: all .3s;
+  text-decoration: none;
+}
+
+
 .footer .footer-bottom {
-  background: #283132;
+  background: #212429;
+  font-size: 13px;
   color: gray;
-  height: 50px;
+  height: 40px;
   width: 100%;
   text-align: center;
   word-spacing: 10px;
   position: absolute;
   bottom: 0px;
   left: 0px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /* end */
