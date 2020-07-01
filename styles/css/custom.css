@@ -99,6 +99,11 @@ body{
   color: #8D8D8D;
 }
 
+   /* Added this class for bullets fix */
+.footer .footer-content .links ul li {
+  list-style-type: none;
+}
+
 .footer .footer-content .links ul a:hover {
   color: white;
   margin-left: 3px;
