@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Website Name</title>
-  <link rel="stylesheet" href="../Font_awesome/css/all.css">
+    <!-- build:css css/main.css  -->
   <link rel="stylesheet" href="../Font_awesome/css/all.min.css">
   <link rel="stylesheet" type="text/css" title="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" title="stylesheet" href="../styles/css/custom.css">
+  <!-- endbuild -->
   <script src="https://use.fontawesome.com/32a07ff7cf.js"></script>
 </head>
 <body>
@@ -165,22 +166,12 @@
       </div>
       <!-- End of footer -->
 
+
+  <!-- build.js js/main.js -->
   <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script>
-    window.onscroll = function() {myFunction()};
-    var x = document.getElementById("test");
+  <script src="../styles/js/script.js"></script>
+  <!-- endbuild -->
 
-    function myFunction(){
-  if (window.pageYOffset >= x.offsetTop - 150) {
-    chuchu.classList.add("x");
-    fills.classList.add("fills");
-  } else {
-    chuchu.classList.remove("x");
-    fills.classList.remove("fills");
-
-  }
-}
-  </script>
 </body>
 </html>

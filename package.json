@@ -8,11 +8,20 @@
     "jquery": "^3.5.1"
   },
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
+    "lite-server": "^2.5.4",
+    "rimraf": "^2.6.2",
+    "uglify-js": "^2.4.11",
+    "usemin-cli": "^0.5.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "clean": "rimraf dist",
+    "imagemin": "imagemin public/authors/* --out-dir=dist/public/authors",
+    "usemin": "usemin blogs/blogpage.html -d dist --htmlmin -o dist/blogpage.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin blog.html -d dist --htmlmin -o dist/blog.html && usemin about.html -d dist --htmlmin -o dist/about.html",
+    "build": "npm run clean && npm run imagemin && npm run usemin"
   },
   "repository": {
     "type": "git",
