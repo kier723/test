@@ -21,7 +21,7 @@
     "clean": "rimraf dist",
     "imagemin": "imagemin public/authors/* --out-dir=dist/public/authors",
     "usemin": "usemin blogs/blogpage.html -d dist --htmlmin -o dist/blogpage.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin blog.html -d dist --htmlmin -o dist/blog.html && usemin about.html -d dist --htmlmin -o dist/about.html",
-    "build": "npm run clean && npm run imagemin && npm run usemin"
+    "build": "npm run imagemin && npm run usemin"
   },
   "repository": {
     "type": "git",
