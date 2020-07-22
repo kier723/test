@@ -43,20 +43,34 @@ body{
 }
 
 .carousel-caption{
-  padding-top: 150px;
-  font-family: Toppan Bunkyu Midashi Mincho;
-  font-weight: bold;
+  padding-top: 525px;
+  padding-bottom: 700px;
+  font-family: helvetica, arial,;
   letter-spacing: 5px;
   top: 35%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .carousel-caption p{
   letter-spacing: 1px;
   font-weight: normal;
   font-size: 12.5px;
-  font-family: Toppan Bunkyu Midashi Mincho;
+  font-family: helvetica, arial;
+}
+
+.carousel-control-next{
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.carousel-control-prev{
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.btn-group-lg>.btn, .btn-lg{
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-style: arial;
 }
 /* end */
 
@@ -105,6 +119,7 @@ body{
   display: block;
   list-style-type: none;
   margin-bottom: 10px;
+  padding-left: 20px;
   font-size: 1em;
   color: #8D8D8D;
 }
@@ -238,10 +253,19 @@ body{
 
 .blog-title  h1{
   color: white;
+  font-size: 30px;
+  font-style: helvetica !important;
+  letter-spacing: 1px;
 }
 
 .blog-author{
-  color: white;
+  color: #8690a4;
+  font-size: 15px;
+}
+
+.blog-author:hover{
+  text-decoration: none;
+  color: gray;
 }
 
 .seperator{
@@ -249,11 +273,16 @@ body{
 }
 
 .blog-paragraph{
-  color: white;
+  color: gray;
+  font-size: 12.5px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .blog-button{
   border-radius: 25px;
+  font-size: 15px;
+  margin-top: 15px;
 }
 
 .blog-content{
@@ -332,6 +361,8 @@ body{
   .heading{
     color: white;
     font-size: 300%;
+    padding-top: 30px;
+    padding-bottom: 80px;
   }
 
   .author-image{
@@ -341,27 +372,45 @@ body{
   }
 
   .author-name{
-    font-size: 48px;
-    color: white;
-    font-weight:700;
+    font-size: 25px;
+    color: #8690a4;
+    font-weight: 200;
+    padding-top: 20px;
   }
 
   .author-position{
     color: white;
+    font-weight: 100;
+    font-size: 15px;
   }
 
   .author-website{
     font-size: 12px;
-    color:white;
+    color: #8D8D8D;
+    text-decoration: none;
+  }
+
+  .author-website:hover{
+    text-decoration: none;
+    color:gray;
   }
 
   .author-social{
+    color: white;
+    padding-top:5px;
     padding-left: 0px;
     padding-right: 0px;
+    font-size: 10px;
   }
 
   .author-description{
-    color: white;
-    font-size: 21px;
+    color: #8D8D8D;
+    font-style: ubuntu;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: .1px;
+    padding-top: 20px;
+    padding-bottom: 150px;
   }
 /* end */
