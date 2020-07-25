@@ -340,11 +340,14 @@ body{
   position: relative;
   padding-top: 70px;
   background-color: #2a2a2a;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .blog-page-text{
   color: white;
   font-weight: 100;
+  font-family: helvetica, arial;
 }
 
 .blog-page-article{
