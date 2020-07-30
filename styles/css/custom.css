@@ -246,7 +246,7 @@ body{
   font-size: 15px;
   font-weight: 100;
   line-height: 40px !important;
-  font-style: helvetica !important;
+  font-family: helvetica !important;
 }
 
 .button{
@@ -342,12 +342,19 @@ body{
   background-color: #2a2a2a;
   padding-left: 200px;
   padding-right: 200px;
+  padding-bottom: 100px;
 }
 
 .blog-page-text{
   color: white;
   font-weight: 100;
   font-family: helvetica, arial;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.blog-page-h1{
+  font-size: 2.5rem;
 }
 
 .blog-page-article{
@@ -355,6 +362,8 @@ body{
   font-size: 17px;
   line-height: 2.5;
   font-weight: 100;
+  padding-left: 130px;
+  padding-right: 130px;
 }
 
 .text-primary{
