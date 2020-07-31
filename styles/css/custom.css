@@ -25,7 +25,8 @@ body{
 }
 
 .nav-link{
-  font-size: 15px;
+  position: relative;
+  font-size: .9em;
   font-weight: 100;
 }
 
