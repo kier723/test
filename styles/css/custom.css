@@ -228,6 +228,11 @@ body{
     .footer .footer-content .footer-section .social{
       padding: 25px;
     }
+
+    .footer li{
+      font-size: large;
+      margin-bottom: 30px;
+    }
    }
     /* end */
 
@@ -283,7 +288,19 @@ body{
  text-align: center;
 }
 
+     /* Media screen for iphone 6/7/8 */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2){
+  .co-object{
+    padding-bottom: 25px;
+  }
+}
+      /* end */
+
 /* end */
+
 
  /* styles for latest articles */
 .heading-la{
